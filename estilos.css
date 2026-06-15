@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(90deg, #ff512f, #dd2476);
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* BANNER */
+.banner {
+    background: linear-gradient(90deg, #36d1dc, #5b86e5);
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+}
+
+/* GRID */
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 30px;
+}
+
+/* CARDS */
+.card {
+    background: linear-gradient(135deg, #ffecd2, #fcb69f);
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    transition: transform 0.3s, background 0.3s;
+}
+
+.card h3 {
+    color: #333;
+}
+
+.card p {
+    color: #555;
+}
+
+/* EFECTO HOVER 🔥 */
+.card:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #a1ffce, #faffd1);
+}
+
+/* FOOTER */
+footer {
+    background: linear-gradient(90deg, #141e30, #243b55);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
